@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap');
+
+h1 {
+   font-family: 'Baloo Thambi 2', cursive;
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+h2{
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+body {
+   font-family: 'Noto Sans TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+   font-size: 1rem;
+   /* 设置根元素的字体大小 */
+}
+
+label{
+   font-size: 0.875rem;
+   font-weight: 700;
+}
+
+$primary:#FFD370;
+$dark:#333;
+$secondary:#9F9A91;
+$danger:#D87355;
