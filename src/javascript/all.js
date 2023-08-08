@@ -23,6 +23,7 @@ const pwdcheckSignupInput = document.querySelector('#pwdcheckSignupInput');
 
 const signupSubmit = document.querySelector('#signupSubmit');
 signupSubmit.addEventListener("click", function (e) {
+   e.preventDefault();
    signupFormHandle();
 });
 
@@ -55,7 +56,7 @@ function signupFormHandle() {
          confirmButtonText: '確認'
       })
    } else {
-      // console.log(email, nickname, password);
+      // console.log(mailSignupInput.value, nicknameSignupInput.value, pwdSignupInput.value);
       signup(mailSignupInput.value, nicknameSignupInput.value, pwdSignupInput.value);
    }
 }
